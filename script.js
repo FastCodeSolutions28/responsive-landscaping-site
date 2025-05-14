@@ -1,5 +1,5 @@
-// Handle form submission
+// Handle form submission with alert
 document.querySelector("form").addEventListener("submit", function (e) {
-  e.preventDefault(); // prevent actual submission
-  alert("Thanks for reaching out! We'll get back to you soon.");
+  e.preventDefault();
+  alert("Thanks for your feedback! This form is part of a demo project.");
 });
